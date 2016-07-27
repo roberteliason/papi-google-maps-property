@@ -1,11 +1,11 @@
 # Google Maps PAPI Property
-**By The Shipyard Crew**  
-robert.eliason@theshipyard.se   
+**By The Shipyard Crew**
+robert.eliason@theshipyard.se
 richard.sweeney@theshipyard.se
+___
 
 ## Installation
-___
-Copy files to your theme.   
+Copy files to your theme.
 Enqueue the property thusly:
 
 <pre><code>/**

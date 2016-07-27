@@ -137,7 +137,7 @@ class Papi_Property_GoogleMap extends Papi_Property {
 	 */
 	protected function setup_actions() {
 		$options = $this->get_options();
-		$api_key = isset( $options->settings->api_key ) ? $options->settings->api_key : 'GOOGLE_MAPS_API_KEY';
+		$api_key = isset( $options->settings->api_key ) ? $options->settings->api_key : 'GOOGLE_MAPS_API_KEY_CONSTANT?';
 
 		wp_enqueue_script( 'google_maps', "https://maps.googleapis.com/maps/api/js?key=".$api_key."&signed_in=false", 'jquery', false, true );
 		wp_enqueue_script( 'papi_property_googlemap', get_template_directory_uri() . '/js/papi-property-googlemap.js', [ 'jquery', 'google_maps' ], false, true );
