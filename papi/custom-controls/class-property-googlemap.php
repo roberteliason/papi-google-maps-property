@@ -121,6 +121,8 @@ class Papi_Property_GoogleMap extends Papi_Property {
 		}
 
 		if ( empty( $value->address ) ) {
+			$value = New stdClass();
+
 			$value->address = 'Greenwich Observatory, London';
 			$value->lat     = 51.4976934;
 			$value->lng     = -0.17549170000006598;
