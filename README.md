@@ -1,7 +1,7 @@
 # Google Maps PAPI Property
-**By The Shipyard Crew**
-robert.eliason@theshipyard.se
-richard.sweeney@theshipyard.se
+**By The Shipyard Crew**   
+robert.eliason@theshipyard.se   
+richard.sweeney@theshipyard.se   
 ___
 
 ## Installation
@@ -14,7 +14,7 @@ Enqueue the property thusly:
 if ( class_exists( 'Papi_Property' ) ) {
 	require_once get_template_directory() . '/papi/custom-controls/class-property-googlemap.php';
 }
-</pre></code>
+</code></pre>
 
 ## Sample property config
 <pre><code>papi_property( [
