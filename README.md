@@ -16,7 +16,7 @@ if ( class_exists( 'Papi_Property' ) ) {
 }
 </pre></code>
 
-### Sample property config
+## Sample property config
 <pre><code>papi_property( [
 	'title'    => __( 'Map', 'my_theme_slug' ),
 	'slug'     => 'location_map',
@@ -25,4 +25,4 @@ if ( class_exists( 'Papi_Property' ) ) {
 		'api_key' => 'AN_ACTUAL_GOOGLE_MAPS_API_KEY'
 	],
 ] )
-<code></pre>
+</code></pre>
