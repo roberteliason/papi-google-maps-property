@@ -8,16 +8,19 @@ ___
 Copy files to your theme.
 Enqueue the property thusly:
 
-<pre><code>/**
+```php
+/**
  * Carefully check for PAPI before loading custom properties
  */
 if ( class_exists( 'Papi_Property' ) ) {
 	require_once get_template_directory() . '/papi/custom-controls/class-property-googlemap.php';
 }
-</code></pre>
+```
 
 ## Sample property config
-<pre><code>papi_property( [
+
+```php
+papi_property( [
 	'title'    => __( 'Map', 'my_theme_slug' ),
 	'slug'     => 'location_map',
 	'type'     => 'googlemap',
@@ -25,4 +28,4 @@ if ( class_exists( 'Papi_Property' ) ) {
 		'api_key' => 'AN_ACTUAL_GOOGLE_MAPS_API_KEY'
 	],
 ] )
-</code></pre>
+```
